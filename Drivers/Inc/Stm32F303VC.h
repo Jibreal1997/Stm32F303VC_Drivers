@@ -198,7 +198,26 @@ typedef struct
 #define SPI2 										((SPI_RegDef_t *)SPI2_BASEADDR)
 #define SPI3 										((SPI_RegDef_t *)SPI3_BASEADDR)
 
+typedef struct
+{
+	__vo uint32_t CR1;									//
+	__vo uint32_t CR2;									//
+	__vo uint32_t CR3;									//
+	__vo uint32_t BRR;									//
+	__vo uint32_t GTPR;									//
+	__vo uint32_t RTOR;									//
+	__vo uint32_t RQR;									//
+	__vo uint32_t ISR;									//
+	__vo uint32_t ICR;									//
+	__vo uint32_t RDR;									//
+	__vo uint32_t TDR;									//
 
+}USART_RegDef_t;
+
+#define USART1 										((USART_RegDef_t *)USART1_BASEADDR)
+#define USART2 										((USART_RegDef_t *)USART2_BASEADDR)
+#define USART3 										((USART_RegDef_t *)USART3_BASEADDR)
+#define USART4 										((USART_RegDef_t *)USART4_BASEADDR)
 
 /********************************************************************************CLOCK ENABLE/DISABLE MACROS****************************************************************************************************/
 
@@ -310,6 +329,13 @@ typedef struct
 #define IRQ_NO_SPI2					36
 #define IRQ_NO_SPI3					51
 
+// USART
+#define IRQ_NO_USART1	    		37
+#define IRQ_NO_USART2	    		38
+#define IRQ_NO_USART3	    		39
+#define IRQ_NO_UART4	    		52
+#define IRQ_NO_UART5	    		53
+#define IRQ_NO_USART6	    		71
 
 
 /********************************************************************************MISCELLANEOUS MACROS*********************************************************************************************/
@@ -365,6 +391,8 @@ typedef struct
 // Other Driver header files
 #include "Stm32F303VC_GpioDriver.h"
 #include "Stm32F303VC_SpiDriver.h"
+#include "Stm32F303VC_USARTDriver.h"
+#include "Stm32F303VC_RccDriver.h"
 
 
 #endif /* INC_STM32F303VC_H_ */

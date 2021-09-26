@@ -73,7 +73,7 @@
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
-						<entry excluding="001LedToggle.c|005SPI_Tx_Arduino.c|004SPI_Tx_Blocking.c|003ButtonInterruptLedToggle.c|002PushButtonLedToggle.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry excluding="007USART_Tx_Arduino.c|006SPI_SendCommand.c|001LedToggle.c|005SPI_Tx_Arduino.c|004SPI_Tx_Blocking.c|003ButtonInterruptLedToggle.c|002PushButtonLedToggle.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Startup"/>
 					</sourceEntries>
 				</configuration>
@@ -150,7 +150,7 @@
 					<sourceEntries>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Inc"/>
-						<entry excluding="001LedToggle.c|005SPI_Tx_Arduino.c|004SPI_Tx_Blocking.c|003ButtonInterruptLedToggle.c|002PushButtonLedToggle.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
+						<entry excluding="007USART_Tx_Arduino.c|006SPI_SendCommand.c|001LedToggle.c|005SPI_Tx_Arduino.c|004SPI_Tx_Blocking.c|003ButtonInterruptLedToggle.c|002PushButtonLedToggle.c" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src"/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Startup"/>
 					</sourceEntries>
 				</configuration>
